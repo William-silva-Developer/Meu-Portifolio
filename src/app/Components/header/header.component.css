@@ -1,0 +1,40 @@
+
+.bar{
+  display: flex;
+
+}
+.bar p {
+  padding-left: 80%;
+  font-size: 28px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+
+.toolbar{
+  display: flex;
+
+
+}
+
+.toolbar .menu ul{
+  display: flex;
+  gap: 24px;
+
+
+}
+
+a{
+  color: #fff;
+  padding: 8px;
+}
+
+li a:hover{
+  background-color: rgba(160, 153, 153, 0.342);
+  color: rgb(34, 229, 8);
+  border-bottom-style: groove;
+  border-bottom-left-radius: 10px;
+  padding: 8px;
+  border-color: rgb(106, 29, 29);
+}
+
